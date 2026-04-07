@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Rust / Cargo
+src-tauri/target/
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Whisper model files (too large for git)
+*.bin
+*.gguf
